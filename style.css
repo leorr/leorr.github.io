@@ -1,5 +1,24 @@
 body{
 	margin: 0px;
 	padding: 0px;
-	font-family: 'Roboto', monospace;
+	font-family: 'IBM Plex Mono', monospace;
+}
+#header{
+	height:100vh;
+	background:#eceff1;
+}
+.user-box{
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	position:absolute;
+	color:#37474f;
+}
+.user-box img{
+	border-radius:50%;
+	width:250px;
+	border: 2px solid #37474f;
+}
+.navbar-dark{
+	background-color:#263238;
 }
